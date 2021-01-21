@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenitore{
+  width: 492px;
+  height: 510px;
+  background-color: #cccccc;
+  margin: auto;
+}
+
+.quadrato{
+  width: 100px;
+  height: 130px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.figurina{
+  width: 100px;
+  height: auto;
+  display: none;
+}
+
+h5{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  display: none;
+}
+
+.quadrato:hover {
+  background: white;
+}
+
+.quadrato:hover .figurina{
+  display: block;
+}
+
+.quadrato:hover h5{
+  display: block;
+}
