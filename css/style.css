@@ -60,3 +60,7 @@ h5{
 .quadrato:hover h5{
   display: block;
 }
+
+footer h6{
+  text-align: center;
+}
