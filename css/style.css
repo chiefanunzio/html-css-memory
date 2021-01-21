@@ -36,13 +36,34 @@ body{
   position: relative;
 }
 
+.quadrato-fisso{
+  width: 100px;
+  height: 130px;
+  margin: 10px 3px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  background-image: url("../img/air_balloon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.balloon{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+
 .figurina{
   width: 100px;
   height: auto;
   display: none;
 }
 
-h5{
+.quadrato h5{
   position: absolute;
   bottom: 10px;
   right: 30px;
