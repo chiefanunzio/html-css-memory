@@ -50,6 +50,10 @@ body{
   background-repeat: no-repeat;
 }
 
+h5{
+  color: #E61986;
+}
+
 
 .balloon{
   position: absolute;
@@ -80,6 +84,10 @@ body{
 
 .quadrato:hover h5{
   display: block;
+}
+
+h5:hover{
+  color: orange;
 }
 
 footer h6{
