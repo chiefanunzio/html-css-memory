@@ -5,10 +5,21 @@
   font-family: 'Nerko One', cursive;
 }
 
+body{
+  background-color: #add8e6;
+}
+
+.title{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 40px 0;
+}
 .contenitore{
+  text-align: center;
   width: 492px;
   height: 510px;
-  background-color: #cccccc;
+  background-color: #add8e6;
   margin: auto;
 }
 
