@@ -15,6 +15,7 @@ body{
   text-align: center;
   margin: 40px 0;
 }
+
 .contenitore{
   text-align: center;
   width: 492px;
@@ -32,33 +33,14 @@ body{
   text-align: center;
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
-  background-size: contain;
-  position: relative;
-}
-
-.quadrato-fisso{
-  width: 100px;
-  height: 130px;
-  margin: 10px 3px;
-  border-radius: 10px;
-  display: inline-block;
-  text-align: center;
-  position: relative;
   background-color: white;
-  background-image: url("../img/air_balloon.png");
   background-size: contain;
+  position: relative;
+}
+
+.quadrato.fisso{
+  background-image: url("../img/air_balloon.png");
   background-repeat: no-repeat;
-}
-
-h5{
-  color: #E61986;
-}
-
-
-.balloon{
-  position: absolute;
-  bottom: 10px;
-  right: 30px;
 }
 
 .figurina{
@@ -68,26 +50,28 @@ h5{
 }
 
 .quadrato h5{
+  color: #E61986;
   position: absolute;
   bottom: 10px;
   right: 30px;
   display: none;
 }
-
+      /* hover */
 .quadrato:hover {
   background: white;
 }
-
 .quadrato:hover .figurina{
   display: block;
 }
-
 .quadrato:hover h5{
   display: block;
 }
-
 h5:hover{
   color: orange;
+}
+
+.fisso h5{
+  display: block;
 }
 
 footer h6{
